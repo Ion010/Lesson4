@@ -103,11 +103,11 @@ class cat{
         this.age  = age;
     }
     ceaipitea(cat1, cat2){
-        console.log(cat1 , "a venit la ", cat2, "sa bea cofii din boabe obtinute din caca cu podliva de la elefant si peurma in camera sa faca cikipibarum");
+        console.log(cat1 , "a venit la ", cat2, "sa bea cofii ");
     }
 };
 
-let dalbaiob = new cat("Dalbaiob", 2);
-let conciuga = new cat("Conciuga", 3);
-dalbaiob.ceaipitea(conciuga.name, dalbaiob.name);
-conciuga.ceaipitea(dalbaiob.name, conciuga.name);
+let cat1  = new cat("cat1", 2);
+let cat2 = new cat("cat2", 3);
+dalbaiob.ceaipitea(cat2.name, cat1.name);
+conciuga.ceaipitea(cat1.name, cat2.name);
