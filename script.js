@@ -109,5 +109,5 @@ class cat{
 
 let cat1  = new cat("cat1", 2);
 let cat2 = new cat("cat2", 3);
-dalbaiob.ceaipitea(cat2.name, cat1.name);
-conciuga.ceaipitea(cat1.name, cat2.name);
+cat2.ceaipitea(cat2.name, cat1.name);
+cat1.ceaipitea(cat1.name, cat2.name);
